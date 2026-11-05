@@ -4,10 +4,29 @@
 	padding: 0;
 }
 
+@font-face {
+	font-family: "DXMobrG";
+	src: url("./DXMobrGExtraBold-KSCpc-EUC-H.ttf") format("truetype");
+	font-weight: 800;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SandollPicasso";
+	src: url(./산돌피카소-mjkwon97.ttf) format("truetype");
+	font-weight: 400;
+	font-display: swap;
+}
+
 body {
 	width: 100%;
 	font-family: "Pretendard", sans-serif;
 	color: #fff;
+}
+
+h1 {
+	font-family: "DXMobrG", "Pretendard", sans-serif;
+	font-weight: 800;
 }
 
 .background {
@@ -77,6 +96,11 @@ body {
 	flex-direction: column;
 	align-items: flex-end;
 	gap: 2px;
+}
+
+.logo-text span:first-child {
+	font-family: "SandollPicasso", sans-serif;
+	font-weight: 400;
 }
 
 .logo span:last-child {
@@ -166,7 +190,6 @@ h1 {
 	width: 100%;
 	margin-top: clamp(32px, 6vh, 84px);
 	border-top: 2px solid #fff;
-	background: rgba(110, 48, 24, 0.3);
 }
 
 .schedule-title,
