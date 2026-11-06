@@ -239,10 +239,9 @@ h1 {
 		right: 4%;
 		bottom: 0;
 		left: auto;
-
-		width: 38vw;
+		width: auto;
 		height: 100%;
-		object-fit: cover;
+		object-fit: contain;
 		object-position: right bottom;
 	}
 
